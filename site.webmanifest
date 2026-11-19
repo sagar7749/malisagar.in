@@ -1,0 +1,15 @@
+{
+  "name": "Sagar Mali – React.js & Full-Stack Developer",
+  "short_name": "Sagar Mali",
+  "description": "Portfolio of Sagar Mali, React.js and full-stack developer (Node.js, Laravel).",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#05050b",
+  "theme_color": "#05050b",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

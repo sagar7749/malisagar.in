@@ -22,7 +22,9 @@ img/logo.svg          logo shown in the header
 img/work/             project covers (16:10; 1440x900 works well)
 img/og-image.jpg      social share preview (1200x630)
 img/favicon.svg       site icon: the logo on a dark tile (favicon.png and apple-touch-icon.png are made from it)
-robots.txt, sitemap.xml
+robots.txt, sitemap.xml   search-engine files (update lastmod in the sitemap after big changes)
+site.webmanifest      app name and icons (img/icon-192.png, icon-512.png, icon-maskable-512.png)
+404.html              page shown for links that don't exist
 siyaramoverseas/      a separate site, not part of the portfolio
 ```
 
