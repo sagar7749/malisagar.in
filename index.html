@@ -36,10 +36,8 @@
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Unbounded:wght@500;700&amp;display=swap">
-  <link rel="preload" href="img/avatar.webp" as="image" type="image/webp">
+  <link rel="preload" href="fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/unbounded-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/site.css">
   <script>document.documentElement.classList.add('js')</script>
   <script type="application/ld+json">
@@ -162,7 +160,10 @@
           <span class="avatar-disc"></span>
         </div>
         <div class="avatar-clip">
-          <img src="img/avatar.webp" width="640" height="675" alt="Illustrated portrait of Sagar Mali" fetchpriority="high">
+          <img src="img/avatar.webp"
+               srcset="img/avatar-270.webp 270w, img/avatar-360.webp 360w, img/avatar-480.webp 480w, img/avatar.webp 640w"
+               sizes="(min-width: 1375px) 264px, (min-width: 1063px) 19.2vw, 204px"
+               width="640" height="675" alt="Illustrated portrait of Sagar Mali" fetchpriority="high">
         </div>
       </div>
       <h1 class="hero-heading">
@@ -596,7 +597,7 @@
       </button>
       <h2 id="contact-title">Get in touch</h2>
       <p class="dialog-lede">Tell me a little about what you need and I’ll reply by email.</p>
-      <form class="contact-form" id="contact-form" action="mailto:malisagar1995@gmail.com" method="post" enctype="text/plain" novalidate>
+      <form class="contact-form" id="contact-form" novalidate>
         <div class="field">
           <label for="cf-name">Your name</label>
           <input id="cf-name" name="name" type="text" autocomplete="name" required maxlength="120">

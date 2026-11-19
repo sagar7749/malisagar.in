@@ -12,11 +12,13 @@ timeline and a contact form.
 index.html            all page content (edit text, projects and links here)
 resume.html           the resume page; also the source of the PDF
 Sagar-Mali-Resume.pdf A4 PDF printed from resume.html
-css/site.css          styles; colours and fonts are variables at the top
+css/site.css          styles; fonts (@font-face) and colour variables are at the top
 css/resume.css        resume page and its print (PDF) layout
+fonts/                Manrope and Unbounded, served from the site (SIL Open Font License, see LICENSE-*.txt)
 js/site.js            2D starfield, mobile menu, contact dialog, scroll effects
 js/starfield-3d.js    desktop-only three.js starfield (replaces the 2D one when it can)
-img/avatar.webp       hero portrait (illustration with a transparent background)
+img/avatar.webp       hero portrait (illustration with a transparent background); avatar-270/360/480.webp are
+                      smaller copies the browser picks on smaller screens, so remake them if the portrait changes
 img/portrait.webp     photo used in the page's structured data for search engines
 img/logo.svg          logo shown in the header
 img/work/             project covers (16:10; 1440x900 works well)
