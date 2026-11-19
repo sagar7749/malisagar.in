@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d261e"/>
+      <stop offset=".55" stop-color="#1b4535"/>
+      <stop offset="1" stop-color="#2a5a42"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffe2a8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="room1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3f7a5a"/><stop offset="1" stop-color="#1d4433"/></linearGradient>
+    <linearGradient id="room2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c58d4f"/><stop offset="1" stop-color="#6b4a2a"/></linearGradient>
+    <linearGradient id="room3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5d8f7a"/><stop offset="1" stop-color="#2b4f45"/></linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#sky)"/>
+  <circle cx="1090" cy="300" r="260" fill="url(#glow)"/>
+  <circle cx="1090" cy="300" r="74" fill="#ffe7b5"/>
+
+  <!-- hills and forest -->
+  <path d="M0 560c220-90 420-70 640-20s440 40 800-40v400H0Z" fill="#174033"/>
+  <g fill="#0f2f24">
+    <path d="M70 600l46-120 46 120Z"/><path d="M140 610l36-96 36 96Z"/><path d="M300 586l50-132 50 132Z"/>
+    <path d="M1020 560l44-116 44 116Z"/><path d="M1100 556l54-142 54 142Z"/><path d="M1220 548l38-100 38 100Z"/><path d="M1300 540l48-128 48 128Z"/>
+  </g>
+  <path d="M0 660c300-80 520-50 760 0s460 20 680-30v270H0Z" fill="#0f2c22"/>
+  <g fill="#0a2119">
+    <path d="M560 680l40-104 40 104Z"/><path d="M620 690l50-130 50 130Z"/><path d="M880 690l42-110 42 110Z"/>
+  </g>
+
+  <!-- nav -->
+  <rect width="1440" height="88" fill="#0b2119" opacity=".55"/>
+  <path d="M120 58c0-22 16-36 36-36 0 22-16 36-36 36Z" fill="#9be7b4"/>
+  <path d="M120 58l26-26" stroke="#0b2119" stroke-width="3" stroke-linecap="round"/>
+  <rect x="170" y="34" width="150" height="14" rx="7" fill="#f3efe4"/>
+  <g fill="#f3efe4" opacity=".75">
+    <rect x="760" y="38" width="70" height="10" rx="5"/><rect x="858" y="38" width="62" height="10" rx="5"/><rect x="948" y="38" width="80" height="10" rx="5"/><rect x="1056" y="38" width="66" height="10" rx="5"/>
+  </g>
+  <rect x="1180" y="22" width="150" height="44" rx="22" fill="#f2b25c"/>
+  <rect x="1212" y="39" width="86" height="10" rx="5" fill="#2a1a08"/>
+
+  <!-- hero copy -->
+  <rect x="120" y="190" width="120" height="10" rx="5" fill="#9be7b4"/>
+  <rect x="120" y="222" width="560" height="46" rx="12" fill="#f3efe4"/>
+  <rect x="120" y="282" width="430" height="46" rx="12" fill="#f3efe4"/>
+  <rect x="120" y="354" width="470" height="13" rx="6.5" fill="#d6e6dc" opacity=".7"/>
+  <rect x="120" y="378" width="380" height="13" rx="6.5" fill="#d6e6dc" opacity=".7"/>
+  <rect x="120" y="420" width="196" height="54" rx="27" fill="#f2b25c"/>
+  <rect x="152" y="442" width="132" height="10" rx="5" fill="#2a1a08"/>
+  <rect x="334" y="420" width="176" height="54" rx="27" fill="none" stroke="#f3efe4" stroke-opacity=".7" stroke-width="2"/>
+  <rect x="368" y="442" width="108" height="10" rx="5" fill="#f3efe4" opacity=".85"/>
+
+  <!-- room cards -->
+  <g>
+    <rect x="120" y="580" width="370" height="250" rx="20" fill="#f3efe4"/>
+    <rect x="136" y="596" width="338" height="140" rx="14" fill="url(#room1)"/>
+    <path d="M136 700l90-60 70 44 60-34 118 74v12a14 14 0 0 1-14 14H150a14 14 0 0 1-14-14Z" fill="#163a2c" opacity=".6"/>
+    <rect x="152" y="756" width="170" height="13" rx="6.5" fill="#1f3a2e"/>
+    <rect x="152" y="782" width="110" height="10" rx="5" fill="#6f8a7c"/>
+    <rect x="384" y="778" width="90" height="28" rx="14" fill="#1f3a2e"/>
+
+    <rect x="535" y="580" width="370" height="250" rx="20" fill="#f3efe4"/>
+    <rect x="551" y="596" width="338" height="140" rx="14" fill="url(#room2)"/>
+    <rect x="600" y="640" width="120" height="70" rx="8" fill="#f3efe4" opacity=".35"/>
+    <rect x="740" y="630" width="110" height="80" rx="8" fill="#2a1a08" opacity=".35"/>
+    <rect x="567" y="756" width="150" height="13" rx="6.5" fill="#1f3a2e"/>
+    <rect x="567" y="782" width="128" height="10" rx="5" fill="#6f8a7c"/>
+    <rect x="799" y="778" width="90" height="28" rx="14" fill="#1f3a2e"/>
+
+    <rect x="950" y="580" width="370" height="250" rx="20" fill="#f3efe4"/>
+    <rect x="966" y="596" width="338" height="140" rx="14" fill="url(#room3)"/>
+    <circle cx="1240" cy="640" r="26" fill="#ffe7b5" opacity=".8"/>
+    <path d="M966 712l80-50 80 40 70-30 108 50v14a14 14 0 0 1-14 14H980a14 14 0 0 1-14-14Z" fill="#163a2c" opacity=".6"/>
+    <rect x="982" y="756" width="190" height="13" rx="6.5" fill="#1f3a2e"/>
+    <rect x="982" y="782" width="96" height="10" rx="5" fill="#6f8a7c"/>
+    <rect x="1214" y="778" width="90" height="28" rx="14" fill="#1f3a2e"/>
+  </g>
+
+  <!-- chat booking button -->
+  <circle cx="1362" cy="822" r="40" fill="#2fbf71"/>
+  <path d="M1344 834l3-11a19 19 0 1 1 7 7Z" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M1355 815c1 4 4 7 8 9l3-3 5 2-1 5c-8 0-17-8-17-16l5-1 2 5Z" fill="#ffffff"/>
+</svg>
